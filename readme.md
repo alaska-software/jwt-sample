@@ -72,4 +72,4 @@ For a full explanation of what JWTs are, how the two-step verification works
 (`verify()` + `isValid()`), security best practices, and how to evolve this
 sample into a production service, read the **jwt-helper guide**:
 
-[JWT Guide — Alaska Software Documentation](https://ilx.alaska-software.com/index.php?ams/xbase-v3-glossary-%E2%80%93-abbreviations-and-technical-terms-english-version.166/)
+[JWT Guide — Alaska Software Documentation](https://guide.alaska-software.com/json-web-token-explained.html)
