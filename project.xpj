@@ -19,11 +19,11 @@
     INTERMEDIATE_RELEASE = .release
     RUNPARAMETER         = -exe
     POST_BUILD           = - copy custaddrsvc.exe.config $(TARGET_PATH)
-    DEPENDS_ON           = $(ASSETS_PATH)\configuration-manager@0.9
-    DEPENDS_ON           = $(ASSETS_PATH)\console-helper@0.14
-    DEPENDS_ON           = $(ASSETS_PATH)\microservice-core@0.21
-    DEPENDS_ON           = $(ASSETS_PATH)\rest-helper@0.21
-    DEPENDS_ON           = $(ASSETS_PATH)\jwt-helper@1.3
+    DEPENDS_ON           = $(ASSETS_PATH)\configuration-manager
+    DEPENDS_ON           = $(ASSETS_PATH)\console-helper
+    DEPENDS_ON           = $(ASSETS_PATH)\microservice-core
+    DEPENDS_ON           = $(ASSETS_PATH)\rest-helper
+    DEPENDS_ON           = $(ASSETS_PATH)\jwt-helper
 // $START-AUTODEPEND
     cust-addr-svc-main.obj
     cust-addr-svc-microservice.obj
