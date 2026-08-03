@@ -30,10 +30,10 @@ CLASS CustomerAddressHandler FROM RestHandler
    EXPORTED:
       CLASS METHOD onRegister()
 
-      METHOD login( oCredentials )
+      METHOD login()
       METHOD getAll()
-      METHOD getById( nId )
-      METHOD addCustomer( oData )
+      METHOD getById()
+      METHOD addCustomer()
 ENDCLASS
 
 
