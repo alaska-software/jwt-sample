@@ -36,7 +36,7 @@ RETURN SUPER:afterRun()
 
 CLASS METHOD CustAddrSvc:onRestart(oState)
    UNUSED(oState)
-   XppRtFileLogger():warning(FormatMessage("Processing restart for(%1)",::classname()))
+   XppFileLogger():warning(FormatMessage("Processing restart for(%1)",::classname()))
 
    // $TODO add your code here
 RETURN SELF
@@ -44,7 +44,7 @@ RETURN SELF
 
 CLASS METHOD CustAddrSvc:onRecover(oState)
    UNUSED(oState)
-   XppRtFileLogger():warning(FormatMessage("Processing recover for(%1)",::classname()))
+   XppFileLogger():warning(FormatMessage("Processing recover for(%1)",::classname()))
 
    /// add your code which is a last resort. repeated restarts failed
 RETURN SELF

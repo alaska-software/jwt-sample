@@ -27,7 +27,7 @@ PROCEDURE Main
    NEXT n
 
 
-   XppRtFileLogger():startup()
+   XppFileLogger():startup()
    cServiceName := ConfigManager():Application:Service:Name
 
    // add generic service-command options
