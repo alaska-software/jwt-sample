@@ -18,7 +18,7 @@
     INTERMEDIATE_DEBUG   = .debug
     INTERMEDIATE_RELEASE = .release
     RUNPARAMETER         = -exe
-    POST_BUILD           = - copy custaddrsvc.exe.config $(TARGET_PATH)
+    POST_BUILD           = - copy custaddrsvc.exe.config "$(TARGET_PATH)"
     DEPENDS_ON           = $(ASSETS_PATH)\configuration-manager
     DEPENDS_ON           = $(ASSETS_PATH)\console-helper
     DEPENDS_ON           = $(ASSETS_PATH)\microservice-core
